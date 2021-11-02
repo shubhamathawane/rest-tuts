@@ -1,0 +1,20 @@
+{
+  "name": "rest-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://shubhamathawane/github.io/rest-tuts",
+  "scripts": {
+    "start": "nodemon inedex.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  }
+}
